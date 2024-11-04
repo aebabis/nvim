@@ -1,14 +1,17 @@
 return {
   'hrsh7th/nvim-cmp',
   event = {'InsertEnter'},
+  dependencies = {
+    'hrsh7th/cmp-buffer',
+  },
   config = function()
-    print("Autocomplete loaded")
     local cmp = require('cmp')
 
     cmp.setup({
       sources = {
         {name = 'nvim_lsp'},
       },
+      -- TODO: Figure out why none of these do anything
       mapping = cmp.mapping.preset.insert({
         ['<C-Space>'] = cmp.mapping.complete(),
         ['<C-g>'] = cmp.mapping.complete(),
