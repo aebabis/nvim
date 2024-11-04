@@ -5,6 +5,11 @@
   "lsp-zero.nvim": { "branch": "v4.x", "commit": "19a8b90340c6c522219c84f7befe784d657ab28e" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "4d0e5b49363cac187326998b96aa6a2884e0e89b" },
   "mason.nvim": { "branch": "main", "commit": "e2f7f9044ec30067bc11800a9e266664b88cda22" },
+  "nerdtree-git-plugin": { "branch": "master", "commit": "e1fe727127a813095854a5b063c15e955a77eafb" },
   "nvim-cmp": { "branch": "main", "commit": "f17d9b4394027ff4442b298398dfcaab97e40c4f" },
-  "nvim-lspconfig": { "branch": "master", "commit": "bc6ada4b0892b7f10852c0b8ca7209fd39a6d754" }
+  "nvim-lspconfig": { "branch": "master", "commit": "bc6ada4b0892b7f10852c0b8ca7209fd39a6d754" },
+  "nvim-tree.lua": { "branch": "master", "commit": "4a9e82d10a3715d0c3845e1d2f66ddfb8b711253" },
+  "nvim-web-devicons": { "branch": "master", "commit": "19d257cf889f79f4022163c3fbb5e08639077bd8" },
+  "vim-devicons": { "branch": "master", "commit": "71f239af28b7214eebb60d4ea5bd040291fb7e33" },
+  "vim-nerdtree-syntax-highlight": { "branch": "master", "commit": "35e70334a2ff6e89b82a145d1ac889e82d1ddb4e" }
 }
