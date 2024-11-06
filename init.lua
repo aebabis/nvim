@@ -5,8 +5,6 @@ vim.g.loaded_netrwPlugin = 1
 require("config.lazy")
 require("config.mappings")
 
--- set colorscheme last
--- there's probably a better way to do this
-vim.cmd.colorscheme('tokyonight')
-
+-- User preferences
+vim.cmd.colorscheme('nightfox')
 vim.cmd('set number')
