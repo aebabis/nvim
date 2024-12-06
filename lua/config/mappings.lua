@@ -1,18 +1,4 @@
--- Jump between splits with Ctrl + direction
-vim.keymap.set('n', '<C-h>', '<C-w>h')
-vim.keymap.set('n', '<C-j>', '<C-w>j')
-vim.keymap.set('n', '<C-k>', '<C-w>k')
-vim.keymap.set('n', '<C-l>', '<C-w>l')
-vim.keymap.set('t', '<C-h>', '<C-\\><C-n><C-w>h', {silent=true})
-vim.keymap.set('t', '<C-j>', '<C-\\><C-n><C-w>j', {silent=true})
-vim.keymap.set('t', '<C-k>', '<C-\\><C-n><C-w>k', {silent=true})
-vim.keymap.set('t', '<C-l>', '<C-\\><C-n><C-w>l', {silent=true})
-
--- Easily enter normal mode from terminal
-vim.keymap.set('t', '<ESC>', '<C-\\><C-n>', {noremap = true})
-
-vim.keymap.set('n', '<C-v>', ':vnew<CR>')
-vim.keymap.set('n', '<C-d>', ':new<CR>', {noremap = true})
+vim.cmd('source ~/.vimrc');
 
 local make_window = function(options)
   local handle = vim.api.nvim_open_win(0, false, options)
