@@ -7,7 +7,12 @@ vim.keymap.set('t', '<C-h>', '<C-\\><C-n><C-w>h', {silent=true})
 vim.keymap.set('t', '<C-j>', '<C-\\><C-n><C-w>j', {silent=true})
 vim.keymap.set('t', '<C-k>', '<C-\\><C-n><C-w>k', {silent=true})
 vim.keymap.set('t', '<C-l>', '<C-\\><C-n><C-w>l', {silent=true})
+
+-- Easily enter normal mode from terminal
 vim.keymap.set('t', '<ESC>', '<C-\\><C-n>', {noremap = true})
+
+vim.keymap.set('n', '<C-v>', ':vnew<CR>')
+vim.keymap.set('n', '<C-d>', ':new<CR>', {noremap = true})
 
 local make_window = function(options)
   local handle = vim.api.nvim_open_win(0, false, options)
